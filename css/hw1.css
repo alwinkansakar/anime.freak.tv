@@ -1,0 +1,530 @@
+@font-face{
+font-family:'font2';
+src:url('font/Colleged.ttf') format('truetype');
+}
+@font-face{
+font-family:'font3';
+src:url('font/bauh.ttf') format('truetype');
+}
+@font-face{
+font-family:'font4';
+src:url('font/she.ttf') format('truetype');
+}
+@font-face{
+font-family:'font5';
+src:url('font/blad.ttf') format('truetype');
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: 100%;
+	background: #E6E6FA;
+}
+header{
+	float: left;
+	width:100%;
+	height: auto;
+	background: #A52A2A;
+	color: 	#F0FFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	box-sizing:border-box;
+	padding-left: 10%;
+	box-shadow: 0 5px 14px rgba(0,0,0,0.6);
+	font-family: font5;
+	position: fixed;
+	top:0;
+	left: 0;
+	background-color: maroon;
+	background-image: url(images/imageedit_1_5561949983.gif);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: 10% 50%;
+	background-position: left; center;
+}
+.body1{
+	padding-top: 65px;
+	float: left;
+	width: 85%;
+	height: auto;
+	box-sizing:border-box;
+	margin-left: 7%;
+	background: white;
+	border-left: rgba(166, 166, 166, 0.4) 4px solid;
+	border-right: rgba(166, 166, 166, 0.4) 4px solid;
+	box-shadow: 3px 0 10px rgba(0,0,0,0.4);
+
+}
+.logo{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 14px rgba(0,0,0,0.6);
+}
+.logo1{
+	float: left;
+	width: 57%;
+	height: 120px;
+	box-sizing:border-box;
+}
+.logo1 figure{
+	float: left;
+	width: 40%;
+	height: 100%;
+	box-sizing:border-box;
+	margin-top: 0;
+	margin-left: 5px;
+	margin-right: 0;
+	
+}
+.logo1 figure img{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.logo1 p{
+	float: left;
+	width: 50%;
+	height: 60px;
+	margin: 0;
+	margin-left: 0px;
+	
+	box-sizing:border-box;
+}
+.star{
+	float: left;
+	font-family: font2;
+	font-size: 35px;
+	padding-top: 25px;
+	color: black;
+}
+.star1{
+	float: left;
+	font-size:20px;
+	color: firebrick;
+	font-weight: bold;
+	padding-left: 3px;
+	font-family: font3;
+}
+.logo2{
+	width:40%;
+	float: right;
+	height: auto;
+	box-sizing:border-box;
+	padding-top: 20px;
+	margin-right: 10px;
+}
+.logo2 p{
+	float: right;
+	width:100%;
+	text-align: right;
+	color:firebrick;
+	margin: 0 0 5px 0;
+	font-size: 16px;
+	font-family: font3;
+}
+.menu{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	padding: 0;
+	background: maroon;
+	border-bottom: 4px solid rgb(48, 48, 48);
+}
+.menu ul{
+	float: left;
+	width: 95%;
+	height: auto;
+	box-sizing:border-box;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.active{
+	background: #E6E6FA;
+	color:darkred;
+	font-weight: bold;
+}
+.menu ul li{
+	float: left;
+	width: 120px;
+	height: 45px;
+	list-style-type: none;
+	margin-left: 0;
+	text-align: center;
+	box-sizing:border-box;
+	padding-top: 16px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: font4;
+}
+.menu ul li:not(.active){
+	color:white;
+}
+
+.menu ul li:hover{
+	background: #E6E6FA;
+	cursor: pointer;
+	color: darkred;
+}
+.banner{
+	float: left;
+	width: 100%;
+	box-sizing:border-box;
+	margin-top: 6px;
+	animation-name:fun;
+	animation-iteration-count:infinite;
+	animation-duration:35s;
+	height: 420px;
+	background-image: url(images/1645980-1366x768.jpg);
+	background-attachment:local;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@keyframes fun{
+	0%{background-image: url(images/1645980-1366x768.jpg);}
+	10%{background-image: url(images/Bleach-Computer-Backgrounds.jpg);}
+	20%{background-image: url(images/natsu-and-erza-fairy-tail-anime-wallpaper-1366x768.jpg);}
+	30%{background-image: url('images/download (6).jpg');}
+	40%{background-image: url('images/images (2).jpg');}
+	50%{background-image: url(images/w.png);}
+	60%{background-image: url(images/bleach-wallpaper-keren-tuAo.jpg);}
+	70%{background-image: url(images/Bleach-Computer-Backgrounds.jpg);}
+	80%{background-image: url(images/fairy-tail-2867873.jpg);}
+	90%{background-image: url(images/one.jpg);}
+	100%{background-image: url(images/1645980-1366x768.jpg);}
+}
+.info1{
+	float: left;
+	width: 70%;
+	height: auto;
+	box-sizing:border-box;
+	padding-left: 13px;
+	margin-top: 0;
+	
+}
+.welcome{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	margin-top: 0;
+	padding-top: 8px;
+}
+.welcome h2{
+	font-size: 35px;
+	font-family: font3;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.welcome p{
+	color: #484848 ;
+	font-weight: bold;
+	margin-top: 0;
+}
+.service{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+}
+.service h2{
+	font-size: 35px;
+	font-family: font3;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.pic{
+	float: left;
+	width:32.5%;
+	height: 150px;
+	margin:0 4px 40px 2px;
+	
+}
+.pic:hover{
+	
+	box-shadow: 0 8px 14px black;
+}
+.pic img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 8px;
+}
+@keyframes example {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal:target {
+  display: block;
+}
+.modal-content {
+  margin:auto;
+  box-sizing:border-box;
+  background-attachment:local;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 100px;
+  animation-name: example;
+  animation-duration:0.6s;
+}
+#id011{
+	background-image: url(images/1050007.jpgerza-scarlet-blood-katana-fairy-tail-hd-wallpaper-1920x1200.jpg);
+}
+#id012{
+	background-image: url('images/1918360-1366x768 (1).jpg');
+}
+#id013{
+	background-image: url(images/images.jpg);
+}
+#id014{
+	background-image: url('images/download (5).jpg');
+}
+#id015{
+	background-image: url('images/images (2).jpg');
+}
+#id016{
+	background-image: url('images/download (6).jpg');
+}
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 16px;
+  margin-top: 8px;
+  font-family: font2;
+
+}
+.closebtn:hover
+ {
+  color:#000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pic p{
+	color: firebrick;
+	font-size: 16px;
+	margin-left: 40px;
+	font-weight: bold;
+	font-family: font4;
+}
+.latest{
+	float: left;
+	width: 100%;
+	box-sizing:border-box;
+	height: auto;
+	margin-top: 3px;
+	padding-top: 0;
+}
+.latest h2{
+	font-family: font3;
+	font-size: 30px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.latest1{
+	float: left;
+	width: 49%;
+	box-sizing:border-box;
+	height: auto;
+	margin-left: 3px;
+
+}
+.latest1 img{
+	float: left;
+	width: 50%;
+	height: 150px;
+}
+.latest11{
+	float: left;
+	width: 48%;
+	height: auto;
+	margin-left:6px;
+	margin-top: 0;
+	
+}
+.latest11 a{
+	text-decoration: none;
+	color:red;
+}
+.latest11 h3{
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: font5;
+	color: firebrick;
+
+}
+.latest11 p{
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.info2{
+	float: right;
+	width: 29%;
+	height: auto;
+	box-sizing:border-box;
+	margin-left: 10px;
+}
+.find{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	
+	padding-left: 10px;
+}
+.find h2{
+	margin-left: 30px;
+	margin-bottom: 0px;
+	font-family: font3;
+}
+.find img{
+	width:80%;
+	margin-left: 0px;
+}
+.find img:hover{
+	cursor: pointer;
+}
+.location{
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	float: left;
+	margin-top: 20px;
+
+}
+.location img{
+	width: 100%;
+	height: 200px;
+}
+.location h2{
+	font-family: font3;
+	margin-top: 0;
+	margin-left: 8px;
+	margin-bottom: 0;
+}
+.why{
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	float: left;
+}
+.why h2{
+	font-family: font3;
+	margin-bottom: 0;
+	margin-top: 30px;
+	font-size: 22px;
+}
+.why p{
+	margin-top: 0;
+}
+.why a{
+	text-decoration: none;
+	color: red;
+}
+.feed{
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	margin-top: 0px;
+
+}
+.feed span{
+	font-size: 30px;
+	font-family: font3;
+}
+.feed textarea{
+	resize:none;
+	width: 100%;
+	box-sizing:border-box;
+	border: 2px solid grey;
+	padding-top: 3px;
+	padding-left: 13px;
+	background: :#f8f8f8;
+	font-size: 14px;
+	height: 40px;
+	transition:height 0.7s;
+	outline: none;
+}
+.feed input[type="submit"]{
+	border: none;
+	width:70px;
+	height: 30px;
+	font-size: 14px;
+	float: right;
+	color: red;
+	margin-top: 10px;
+	margin-right: 6px;
+	border-radius: 20%;
+}
+.feed textarea:focus{
+	height: 80px;
+	border: 2px solid grey;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	float: left;
+	box-sizing:border-box;
+	background-color: maroon;
+	background-image: url(images/imageedit_1_6536698244.gif);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: 30% 70%;
+	background-position: right center;
+}
+footer ul{
+	width: 25%;
+	height: auto;
+	float: left;
+	box-sizing:border-box;
+	margin-left: 30px;
+}
+footer ul li{
+	list-style-type: none;
+	color: white;
+}
+footer .head{
+	font-weight: bold;
+	font-size: 27px;
+	color:white;
+	margin-bottom: 7px;
+	font-family: font3;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+	color: firebrick;}
